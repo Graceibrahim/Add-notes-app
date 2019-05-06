@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GraceNjenga</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="fable_1_text"></string>
+    <string name="fable_2_text"></string>
+    <string name="fable_3_text"></string>
+    <string name="fable_4_text"></string>
+    <string name="fable_5_text"></string>
+    <string name="fable_6_text"></string>
+    <string name="fable_7_text"></string>
+
+
+
+
+    <string name="sleep">Sleep is very important. Without an adequate amount of sleep, mental and physical health can suffer. Experts generally recommend that adults sleep at least 7½ to 8 hours per night, although some people require more and some less. The quality of your sleep directly affects your mental and physical health and the quality of your waking life, including your productivity, emotional balance, brain and heart health, immune system, creativity, vitality, and even your weight. No other activity delivers so many benefits with so little effort!
+Sleep isn’t merely a time when your body shuts off. While you rest, your brain stays busy, overseeing biological maintenance that keeps your body running in top condition, preparing you for the day ahead. Without enough hours of restorative sleep, you won’t be able to work, learn, create, and communicate at a level even close to your true potential. Regularly skimp on “service” and you’re headed for a major mental and physical breakdown.
+The good news is that you don’t have to choose between health and productivity. By addressing any sleep problems and making time to get the sleep you need each night, your energy, efficiency, and overall health will go up. In fact, you’ll likely get much more done during the day than if you were not sleeping trying to get more done.
+</string>
+</resources>
