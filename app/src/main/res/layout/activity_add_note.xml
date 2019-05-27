@@ -19,48 +19,68 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-   app:layout_behavior="@string/appbar_scrolling_view_behavior">
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="title"
-        android:id="@+id/etTitle"
-        />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding='20dp'
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Note"
-        android:id="@+id/etNote"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Add photo"
-        android:id="@+id/btnAddPhoto"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Add VoiceNote"
-        android:id="@+id/btnAddVoiceNotes"/>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Save"
-        android:id="@+id/btnSave"/>
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:hint="Title"/>
 
 
 
-</LinearLayout>
-    </ScrollView>
+
+        <EditText
+            android:id="@+id/etNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note"
+            android:lines="5" />
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAddPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add photo" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btnAddVoiceNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add VoiceNote" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_round_add_a_photo_24dp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+    </LinearLayout>
+
+
+
+
 </android.support.design.widget.CoordinatorLayout>

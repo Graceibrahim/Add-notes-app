@@ -16,6 +16,11 @@ public class AddNoteActivity extends AppCompatActivity {
     Button btnAddPhoto;
     Button btnAddVoiceNote;
     Button btnSave;
+    String note;
+    String title;
+
+
+
 
 
     @Override
@@ -32,10 +37,12 @@ public class AddNoteActivity extends AppCompatActivity {
         btnAddVoiceNote=findViewById(R.id.btnAddVoiceNotes);
         btnSave=findViewById(R.id.btnSave);
 
+
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Toast.makeText(getBaseContext(), "You have clicked the new button", Toast.LENGTH_LONG).show();
+            public void onClick(View v) (){
+                title = etTitle.getText().toString();
+                note=etNote.getText().toString();
             }
 
         });
